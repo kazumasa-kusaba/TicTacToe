@@ -8,7 +8,7 @@ typedef enum {
   STRATEGY_ERROR_FATAL,
 } StrategyError;
 
-StrategyError StrategyPlaceMark(const BoardInfo *bi, BoardMark computer_mark, BoardPoint *next_point);
+extern StrategyError StrategyPlaceMark(const BoardInfo *bi, BoardMark computer_mark, BoardPoint *next_point);
 
 #endif  // TICTACTOE_STRATEGY_H_
 
